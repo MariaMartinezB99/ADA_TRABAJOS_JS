@@ -1,6 +1,8 @@
-//Declara dos variables 
-
 const prompt = require('prompt-sync')();
+/*• Ejercicio 1:
+Declara dos variables numéricas numero1 y numero2. Pide al usuario
+que ingrese dos números y muestra cuál es mayor o si son iguales.*/
+
 let num1 = parseFloat( prompt ("ingrese un numero: "));
 let num2 = parseFloat( prompt ("ingrese un segundo numero: "));
  if (num1 > num2) {
@@ -11,18 +13,4 @@ let num2 = parseFloat( prompt ("ingrese un segundo numero: "));
  } else {
     console.log("los numero son iguales");
  }
- //Ejercicio 2:
-/*Define dos constantes, RANGO_MINIMO y RANGO_MAXIMO, con
-valores numéricos de tu elección. Pide al usuario que ingrese un
-número y verifica si está dentro del rango definido por las constantes.*/
-
-const RANGO_MINIMO = 1 ;
-const RANGO_MAXIMO = 10 ; 
-let numero = parseFloat( prompt ("ingrese un numero: ")) ; 
-
-if(numero >= RANGO_MINIMO && numero <= RANGO_MAXIMO) {
-    console.log('el numero ingresado si se encuentra dentro del rango');
-} 
-else{
-    console.log("el numero ingresado se encuentra del rango");
-} 
+ 
